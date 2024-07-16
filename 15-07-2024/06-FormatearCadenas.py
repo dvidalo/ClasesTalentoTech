@@ -10,3 +10,10 @@ print("mis numeroes son {} y {}".format(x,y))
 print("mis numeroes son {} y {}".format(y,x))
 print("la suma de {} mas {} es igual a {}".format(x,y,suma))
 print("la suma de {} mas {} es igual a {}".format(x,y,x+y))
+
+# otra opcion es con la ocion de anteponer la f en una cadena
+
+color="rojo"
+matricula = 75451
+
+print(f"el color es {color} y la matricula es {matricula}")
