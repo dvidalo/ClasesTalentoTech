@@ -12,9 +12,9 @@ var_b=lista[1]
 var_c=lista[2]
 print(f"""
       Repeticion de letras ingresadas
-      1. letra "{var_a}" se repite {repeticion_a}
-      2. letra "{var_b}" se repite {repeticion_b}
-      3. letra "{var_c}" se repite {repeticion_c}""")
+      1. letra "{var_a}" se repite {repeticion_a} veces
+      2. letra "{var_b}" se repite {repeticion_b} veces
+      3. letra "{var_c}" se repite {repeticion_c} veces""")
 cadena_total_texto=texto.split()
 total_cadena=len(cadena_total_texto)
 print(f"""
@@ -38,4 +38,6 @@ consultar=str("python" in texto)
 ConsultaTex={'True':"La Palabra Python si ",'False':'La Palabra Python, no '}
 rta=ConsultaTex[consultar]
 
-print(f"""Luego de Consultar su texto se pudo definir que {rta} se encuentra en el texto""")
+print(f"""
+      Luego de Consultar su texto se pudo definir que {rta} se encuentra en el texto
+      """)
