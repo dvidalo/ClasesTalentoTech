@@ -8,4 +8,4 @@ print(texto[8::3])
 
 # PRACTICA3
 texto="Es genial trabajar con ordenadores. No discuten, lo recuerdan todo y no se beben tu cerveza"
-print(texto[::-2])
+print(texto[::-1])
