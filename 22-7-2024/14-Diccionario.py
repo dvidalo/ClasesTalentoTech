@@ -1,4 +1,4 @@
-# nombre de variable={'clave1':'valor1','clave2':'valor2',}
+# nombre de Diccionario={'clave1':'valor1','clave2':'valor2',}
 # no se maneja posicionamiento como en las listas o los string
 mi_diccionario={"curso":"Python TOTAL","clase":"Diccionarios"}
 

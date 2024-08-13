@@ -9,8 +9,8 @@ print(f"""
 # Practica 2
 mi_tupla= (1,2,3,2,3,1,3,2)
 mi_lista= list(mi_tupla)
-print(f"""practica 2
-       
+print(f"""
+      practica 2
        se pasa la tupla= {mi_tupla}
        a mi lista = {mi_lista}""")
 print(type(mi_lista))

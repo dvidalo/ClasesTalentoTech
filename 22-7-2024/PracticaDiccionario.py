@@ -35,7 +35,7 @@ edad= mi_dic['edad']
 ocupacion = mi_dic['ocupacion']
 pais=mi_dic['pais']
 
-# Se impime en pantalla 
+# Se imprime en pantalla 
 
 print(f"""
       practica Nro3

@@ -12,7 +12,7 @@
 # while respuesta =='s':
 #     pass
 
-nombre = input("ingrese nombre: ")
+nombre ='jorge'
 
 for letra in nombre:
     if letra =='r':

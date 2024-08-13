@@ -14,6 +14,7 @@ print(type(mi_set2))
 # se puede obtener la longitud del conjunto
 print(len(mi_set))
 
+# se pueden unir dos set con la opcion de set1.union(set2)
 s1={1,2,3}
 s2={3,4,5}
 s3 = s1.union(s2)

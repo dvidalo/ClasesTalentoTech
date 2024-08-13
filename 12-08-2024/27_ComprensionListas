@@ -1,0 +1,33 @@
+# La comprensión de listas ofrece una sintaxis más breve en la
+# creación de una nueva lista basada en valores disponibles en
+# otra secuencia. Vale la pena mencionar que la brevedad se
+# logra a costo de una menorinterpretabilidad.
+
+# nueva_lista= [expresion for item in iterable if condicion == True]
+
+# fórmula matemática operación lógica
+
+# Caso especial con else:
+# nueva_lista= [expresion if condicion == True else otra_expresion
+# for item in iterable]
+
+palabra = 'python'
+lista = []
+print(lista)
+for letra in palabra:
+    lista.append(letra)
+print(lista)
+
+palabra = 'Otro Python'
+lista= [letra for letra in palabra]
+print(lista)
+
+
+lista2 = [n for n in range(0,21,2)]
+print(lista2)
+
+lista3 =[n/2 for n in range(0,21,2)]
+print(lista3)
+
+Lista4 = [n for n in range(0,21,2) if n * 2 > 10]
+print(Lista4)

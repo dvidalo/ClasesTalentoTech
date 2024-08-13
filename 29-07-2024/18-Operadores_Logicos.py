@@ -28,11 +28,4 @@ print(mi_bool)
 mi_bool=("esta" in texto) or ("python" in texto)
 print(mi_bool)
 
-a= 5
 
-if(a==4):
-    print("es tres")
-elif a<4:
-    print ("segunda verificacion")
-else:
-    print("negacion")
