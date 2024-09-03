@@ -52,7 +52,7 @@ def chequear_letra(letraelegida, palabraoculta, vidas, coincidencias):
 
 def perder():
     print("Te has quedado sin vidas")
-    print(f"la pallabra oculta era{palabraelegida}")
+    print(f"la pallabra oculta era: {palabraelegida}")
     return True
 
 def ganar(palabradescubierta):

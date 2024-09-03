@@ -13,8 +13,8 @@ saludo(nombre)
 
 def sumar (a,b):
     suma=a+b
-    return[suma]
+    return suma
 
 numero1 = int(input("Ingresa numero 1: "))
-numero2 = int(input("Ingresa numero 2"))
+numero2 = int(input("Ingresa numero 2: "))
 print(sumar(numero1,numero2))

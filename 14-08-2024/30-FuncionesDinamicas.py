@@ -6,9 +6,7 @@ def chequear_3_cifras(numero):
 def revisarLista_3_cifras(lista):
     listade3cifras=[]
     for n in lista:
-        b=chequear_3_cifras(n)
-        print(b)
-        if b:
+        if n in range(100,1000):
             listade3cifras.append(n)
         else:
             pass

@@ -1,7 +1,9 @@
-def suma(*sumandos):
+# se puede definir una funcion sin argumentos predeterminados
+
+def suma(*args):
     total = 0
-    for sumandos in sumandos:
-        total += sumandos
+    for args in args:
+        total += args
     return total
 
 print(suma(4,7,8,1))
